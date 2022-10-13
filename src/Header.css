@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+.header{
+	background-color: #081d44;
+}
+
+.navBar{
+	height: 100%;
+	display: flex;
+	margin: 0rem 1rem;
+	padding: .5rem .5rem;
+}
+
+.logo{
+	font-family: 'Comforter Brush', cursive;
+	font-weight: 600;
+	font-size: 2em;
+	color: #eded64;
+}
+
+.navBar ul{
+	list-style: none;
+	display: flex;
+	margin-top: 1.5em;
+}
+
+.navBar ul li a{
+	font-family: 'Alkalami', serif;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: .8em 1.5em;
+	color: #fff;
+	font-weight: 500;
+}
+
+.navBar ul li a:hover, .navbar ul li a:focus{
+	color: #eded64;
+	background: #0d3172;
+	border-radius: .2em;
+}
+
+.btn{
+	padding: 0em 2em;
+	font-size: 1em;
+	font-family: 'Alkalami', serif;
+	margin-bottom: .8em;
+	border: none;
+	border-radius: .3em;
+	background: transparent;
+	outline: 1px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	transition: background .3s ease-out;
+}
+
+.btn:hover, .btn:focus{
+	background: #1344a0;
+}
+
+@media (min-width: 760px){
+	.navBar{
+		justify-content: space-between;
+	}
+	.logo{
+		padding-left: 1em;
+	}
+}
+
