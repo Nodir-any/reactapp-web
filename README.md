@@ -1,4 +1,6 @@
-#reinstall react app on your machine then run <code>npm start</code>
+# reinstall react app on your machine then run
+### `npm start`
+<<< keep in mind to create react app in this directory
 
 
 # Getting Started with Create React App
